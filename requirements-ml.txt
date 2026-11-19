@@ -1,0 +1,4 @@
+# Dependencia opcional y pesada: sólo necesaria para entrenar las redes neuronales.
+# Instalar con: pip install -r requirements-ml.txt
+-r requirements.txt
+tensorflow-cpu>=2.16,<3
