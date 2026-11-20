@@ -1,0 +1,23 @@
+/* Ajustes visuales sobrios; el tema principal se define en .streamlit/config.toml. */
+
+h1 {
+  letter-spacing: -0.025em;
+}
+
+[data-testid="stTabs"] [role="tab"] {
+  font-size: 0.92rem;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+[data-testid="stMetric"] {
+  border-radius: 0.75rem;
+}
+
+[data-testid="stDataFrame"] {
+  border-radius: 0.6rem;
+}
+
+[data-testid="stStatusWidget"] {
+  font-size: 0.9rem;
+}
